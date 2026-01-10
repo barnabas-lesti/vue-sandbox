@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  console.debug('Hello World!');
+console.debug("Hello World!");
 </script>
 
 <template>
@@ -7,7 +7,7 @@
 </template>
 
 <style scoped>
-  h1 {
-    margin-top: 0;
-  }
+h1 {
+  margin-top: 0;
+}
 </style>
