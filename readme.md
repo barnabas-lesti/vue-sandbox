@@ -38,4 +38,4 @@ There are of course more scripts available. Check out the [package.json](./packa
 
 When committing changes to the repository, I use the [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) pattern.
 
-Example commit/merge message: `feature(core/user): create auth logic`.
+Example commit/merge message: `feature: create core auth logic`.
