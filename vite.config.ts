@@ -7,7 +7,7 @@ export default defineConfig(() => ({
     port: 3000,
   },
   preview: {
-    port: 3000,
+    port: 3010,
   },
   build: {
     outDir: "../dist",

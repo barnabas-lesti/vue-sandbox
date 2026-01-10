@@ -23,19 +23,3 @@ There are of course more scripts available. Check out the [package.json](./packa
 ## Dashboards and projects
 
 - [GitHub repository](https://github.com/barnabas-lesti/vue-sandbox)
-
-## Tech stack
-
-- TBD
-
-## Examples
-
-- TBD
-
-## Additional resources
-
-### Conventional commits
-
-When committing changes to the repository, I use the [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) pattern.
-
-Example commit/merge message: `feature: create core auth logic`.
