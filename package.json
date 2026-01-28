@@ -20,9 +20,9 @@
     "vite": "^7.3.1",
     "vue-tsc": "^3.2.2"
   },
-  "packageManager": "npm@0.0.0",
+  "packageManager": "bun@0.0.0",
   "engines": {
-    "node": "^24",
-    "npm": "^11"
+    "node": "^20",
+    "bun": "^1"
   }
 }

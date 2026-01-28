@@ -12,11 +12,14 @@ Vue sandbox and experimentation web project.
 - [Visual Studio Code](https://code.visualstudio.com/)
   - Other IDE can be used of course, but there are added settings for VSCode in the project.
   - Once the project is opened in VSCode, install the recommended extensions.
+- [Bun](https://bun.sh/)
+  - Faster and more robust package manager compared to `npm`.
+  - **Important**: Don't just `npm i -g bun`, rather install the binary as described in the [docs](https://bun.sh/).
 
 ## Quick start
 
-1. Install required dependencies with `npm i`.
-2. Start the app in development mode with `npm run dev`.
+1. Install required dependencies with `bun i`.
+2. Start the app with `bun run dev`.
 
 There are of course more scripts available. Check out the [package.json](./package.json) file and the docs for more information.
 
