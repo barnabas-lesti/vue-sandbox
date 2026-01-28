@@ -13,5 +13,9 @@
   "git.ignoreLimitWarning": true,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.wrapTabs": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.format.enable": true
 }

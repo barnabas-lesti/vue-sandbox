@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import tsconfigPaths from "vite-tsconfig-paths";
+import { fileURLToPath } from "node:url";
+import { defineConfig } from "vite";
 
 export default defineConfig(() => ({
   root: "./src",
@@ -14,5 +14,10 @@ export default defineConfig(() => ({
     outDir: "../dist",
     emptyOutDir: true,
   },
-  plugins: [vue(), tsconfigPaths()],
+  resolve: {
+    alias: {
+      src: fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
+  plugins: [vue()],
 }));

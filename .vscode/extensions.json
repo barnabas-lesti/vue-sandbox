@@ -4,6 +4,7 @@
     "yzhang.markdown-all-in-one",
     "redhat.vscode-yaml",
     "Vue.volar",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
   ]
 }
