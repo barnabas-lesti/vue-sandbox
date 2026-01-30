@@ -9,11 +9,13 @@
     "lint": "prettier . --write --cache --cache-location=.prettiercache && eslint . --fix --cache"
   },
   "dependencies": {
+    "lodash.merge": "^4.6.2",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "@types/lodash.merge": "^4.6.9",
     "@types/node": "^24.10.4",
     "@typescript-eslint/eslint-plugin": "^8.54.0",
     "@typescript-eslint/parser": "^8.54.0",

@@ -1,11 +1,6 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": [
-    "daisyui",
-    "eslintcache",
-    "prettiercache",
-    "yzhang"
-  ],
+  "words": ["daisyui", "eslintcache", "prettiercache", "yzhang"],
   "flagWords": []
 }
